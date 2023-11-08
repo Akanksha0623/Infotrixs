@@ -24,11 +24,11 @@ def continuous_weather_update(city_name, refresh_interval):
         get_weather(city_name)
         time.sleep(refresh_interval)
 
+#autorefresh_setting
+city = "London"
+refresh_time = 15 #time refresh in 15 seconds
 
-city = "London" 
-refresh_time = 600
-
-
+#autorefresh
 continuous_weather_update(city, refresh_time)
 
 
