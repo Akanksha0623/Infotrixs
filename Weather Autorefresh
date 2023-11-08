@@ -31,6 +31,8 @@ refresh_time = 15 #time refresh in 15 seconds
 #autorefresh
 continuous_weather_update(city, refresh_time)
 
+----------------------------------------------
+
 
 DELHI:
 import requests
@@ -64,6 +66,8 @@ refresh_time = 15
 
 
 continuous_weather_update(city, refresh_time)
+
+----------------------------------------------------
 
 
 KARACHI:
@@ -99,6 +103,8 @@ refresh_time = 15
 
 continuous_weather_update(city, refresh_time)
 
+--------------------------------------------------------
+
 
 DUBAI:
 import requests
@@ -132,6 +138,9 @@ refresh_time = 15
 
 
 continuous_weather_update(city, refresh_time)
+
+------------------------------------------------
+
 
 LOS ANGELES:
 import requests
